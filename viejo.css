@@ -295,27 +295,7 @@ img, svg {
         /*``` en html iria link a pdf````*/
     }
 
-    .button:hover {
-        color: black;
-        transition-duration: 0.4s;
-      }
-      
-      .button:hover {
-        background-color: #4CAF50; /* Green */
-        color: white;
-      }
-    
-    .button{
-        display: grid;
-        grid-template-areas: ".button";
-        margin:10px;
-        align-content: center;
-        align-items: center;
-    }
-     .button{
-        display: flex;
-        align-content: center;
-     }
+  
      .receta{
         text-align: center justify;
         font-size: 30px;

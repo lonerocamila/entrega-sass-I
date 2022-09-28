@@ -5,5 +5,28 @@
     background-size: cover;
     left:0;
     top:0;
+    .button{
+        display: inline-block;
+        text-decoration: none;
+        padding: 32px 16px; 
+        border-bottom: $primary;
+        background-color:  $primary;
+        border:none;
+        font-size: 30px;
+        align-items: center;
+        border-radius: 2px;
+        display: grid;
+        grid-template-areas: ".button";
+        margin:10px;
+        align-content: center;
+        align-items: center;
+            /*``` en html iria link a pdf````*/
+        }
+        &:hover{
+            color: $fontcolor;
+            transition-duration: 0.4s;
+            background-color:$primary; /* Green */
+            color: white;
+        }
     }
     
